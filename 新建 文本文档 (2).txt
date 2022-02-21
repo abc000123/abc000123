@@ -1,0 +1,630 @@
+proxies:
+  - {name: 🇰🇷 甲骨文 N, server: m.misapp.top, port: 31552, type: vmess, uuid: 6d11b475-dab4-4411-bc58-031f8402e70d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sztjvws, ws-headers: {Host: me.nimen.ml}}
+  - {name: 🇰🇷 甲骨文 Q, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: af10791e-806c-46d9-8bf6-7c1bd7a3a8e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /3d714fc223e/, ws-headers: {Host: ms.nimen.ml}}
+  - {name: 🇯🇵 日本 U, server: m.misapp.top, port: 31552, type: vmess, uuid: 70396943-998c-e94d-4689-06b01e04dfc0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ynqivws, ws-headers: {Host: magsk.eu.org}}
+  - {name: 🇺🇸 洛杉矶 G, server: m.misapp.top, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /f601134/, ws-headers: {Host: nimen.tk}}
+  - {name: 🇺🇸 洛杉矶 O, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dauuvws, ws-headers: {Host: pushplus.eu.org}}
+  - {name: 🇺🇸 达拉斯 G, server: m.misapp.top, port: 
+  31552, type: vmess, uuid: f68bdfd7-4124-4113-8205-69af0f945d73, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /0ca241/, ws-headers: {Host: m.misapp.ml}}
+  - {name: 🇸🇬 新加坡 S, server: m.misapp.top, port: 31552, type: vmess, uuid: 80fe731d-0a45-4df9-413d-b74fa0099ef5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /faocvws, ws-headers: {Host: magsko.eu.org}}
+  - {name: 🇺🇸 Heroku U, server: m.misapp.top, port: 31552, type: vmess, uuid: 6d806487-2d26-4636-98b6-9b85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: heroku.misapp.workers.dev}}
+  - {name: 🇺🇸 圣何塞, server: m.misapp.top, port: 31552, type: vmess, uuid: 53028666-dd4f-4c49-ac27-f6cc9c4cc126, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /555574e4/, ws-headers: {Host: misapp.ml}}
+  - {name: 🇫🇷 星尘, server: m.misapp.top, port: 31552, type: vmess, uuid: b89e571b-0aba-fbe8-05b1-ed8fc2cd14c8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xijovws, ws-headers: {Host: clou.eu.org}}
+  - {name: 🇭🇰 香港, server: dgddns.floatcloud.net, port: 31994, type: ss, cipher: chacha20-ietf-poly1305, password: mv07d3p6uP5VvdAM, udp: true}
+  - name: 🇸🇬V2-MLBB1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: m.mobilelegends.com
+       
+  - name: 🇸🇬V2-MLBB2
+    type: vmess
+    server: v2ray-zsg01.bmqb.net
+    port: 443
+    uuid: cdc0a93c-982b-46a9-8bcb-299ad7e81846
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /speedyssh
+    ws-headers: 
+       Host: m.mobilelegends.com
+       
+  - name: 🇸🇬SSR-MLBB1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: m.mobilelegends.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-MLBB1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: m.mobilelegends.com      
+       
+  - name: 🇸🇬TJ-MLBB1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: m.mobilelegends.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
+  - name: 🇸🇬V2-FF1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: reward.ff.garena.com
+       
+  - name: 🇸🇬V2-FF2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: reward.ff.garena.com
+       
+  - name: 🇸🇬SSR-FF1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: reward.ff.garena.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-FF1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: reward.ff.garena.com      
+       
+  - name: 🇸🇬TJ-FF1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: reward.ff.garena.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
+    
+  - name: 🇸🇬V2-SOCIAL PACK1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: m.mobilelegends.com
+       
+  - name: 🇸🇬V2-SOCIAL PACK2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: ticket.line.me
+       
+  - name: 🇸🇬SSR-SOCIAL PACK1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: ticket.line.me
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-SOCIAL PACK1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: ticket.line.me      
+       
+  - name: 🇸🇬TJ-SOCIAL PACK1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: ticket.line.me
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
+    
+  - name: 🇸🇬V2-PUBG1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: www.pubgmobile.com
+       
+  - name: 🇸🇬V2-PUBG2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: www.pubgmobile.com
+       
+  - name: 🇸🇬SSR-PUBG1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: www.pubgmobile.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-PUBG1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: www.pubgmobile.com      
+       
+  - name: 🇸🇬TJ-PUBG1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: www.pubgmobile.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
+  - name: 🇸🇬V2-YT1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: m.youtube.com
+       
+  - name: 🇸🇬V2-YT2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: m.youtube.com
+       
+  - name: 🇸🇬SSR-YT1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: m.youtube.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-YT1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: m.youtube.com      
+       
+  - name: 🇸🇬TJ-YT1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: m.youtube.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true    
+    
+    
+  - name: 🇸🇬V2-FB1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: m.facebook.com
+       
+  - name: 🇸🇬V2-FB2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: m.facebook.com
+       
+  - name: 🇸🇬SSR-FB1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: m.facebook.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-FB1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: m.facebook.com      
+       
+  - name: 🇸🇬TJ-FB1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: m.facebook.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
+    
+  - name: 🇸🇬V2-CC PROMO1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: m.mobilelegends.com
+       
+  - name: 🇸🇬V2-CC PROMO2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: m.mobilelegends.com
+       
+  - name: 🇸🇬SSR-CC PROMO1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: m.mobilelegends.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-CC PROMO1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: m.mobilelegends.com      
+       
+  - name: 🇸🇬TJ-CC PROMO1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: m.mobilelegends.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
+  - name: 🇸🇬V2-WA1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: v.whatsapp.com
+       
+  - name: 🇸🇬V2-WA2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: v.whatsapp.com
+       
+  - name: 🇸🇬SSR-WA1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: v.whatsapp.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-WA1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: v.whatsapp.com      
+       
+  - name: 🇸🇬TJ-WA1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: v.whatsapp.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
+    
+  - name: 🇸🇬V2-TIKTOK1
+    type: vmess
+    server: sg.vmess1.xservs.xyz
+    port: 80
+    uuid: a7c1f56e-3182-4080-a69e-9241e18c0739
+    alterId: 0
+    cipher: auto
+    tls: null
+    skip-cert-verify: false
+    servername: null
+    network: ws
+    ws-path: /vmess
+    ws-headers: 
+       Host: www.tiktok.com
+       
+  - name: 🇸🇬V2-TIKTOK2
+    type: vmess
+    server: v2ray-xsg01.unlissh.cyou
+    port: 443
+    uuid: 91764fcc-042e-4e3b-9d66-40a0bf4deb16
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /unlissh
+    ws-headers: 
+       Host: www.tiktok.com
+       
+  - name: 🇸🇬SSR-TIKTOK1
+    type: ssr
+    server: ctb4-sg.sharing.domains
+    local_address: 127.0.0.1
+    local_port: 1080
+    timeout: 300
+    port: 8477
+    cipher: AES-256-CFB
+    password: artunnel57-syudud
+    obfs: http_simple
+    protocol: auth_sha1_v4
+    obfs-param: www.tiktok.com
+    protocol-param: 
+    udp: true
+    
+  - name: 🇸🇬SS-TIKTOK1
+    type: ss
+    server: sg1-ss.sshstores.net
+    port: 8139
+    cipher: chacha20-ietf-poly1305
+    password: k9ULT
+    plugin: obfs
+    plugin-opts:
+       mode: http
+       host: www.tiktok.com      
+       
+  - name: 🇸🇬TJ-TIKTOK1
+    type: trojan
+    server: sgt-2.opensvr.net
+    port: 443
+    password: opentunnel.net-jkdddjd
+    udp: true
+    sni: www.tiktok.com
+    alpn:
+       - h2
+       - http/1.1
+    skip-cert-verify: true
+    
