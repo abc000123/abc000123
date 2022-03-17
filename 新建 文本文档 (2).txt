@@ -1,11 +1,26 @@
 proxies:
+  - {name: 🇸🇬 IPLC 🇸🇬SG, server: iepl02.123ccc.xyz, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com}
+  - {name: 🇭🇰 IPLC 🇭🇰HK, server: iepl03.123ccc.xyz, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com}
+  - {name: 🇺🇸 美国34.125.228.72, server: 34.125.228.72, port: 37058, type: vmess, uuid: 39d7247e-b0d9-448c-93d0-25eb0d7e6a83, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港34.150.55.213, server: 34.150.55.213, port: 37754, type: vmess, uuid: 1fae27ce-f680-4e77-b051-5f41813eddf1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国34.68.119.183, server: 34.68.119.183, port: 44098, type: vmess, uuid: a4dcac01-8d9d-493b-ad1d-1a4f4d62fddd, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 甲骨文 N, server: 47.52.59.79, port: 443, type: vmess, uuid: 6d11b475-dab4-4411-bc58-031f8402e70d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sztjvws, ws-headers: {Host: me.nimen.ml}}
   - {name: 🇰🇷 甲骨文 Q, server: m.misapp.top, port: 31552, type: vmess, uuid: af10791e-806c-46d9-8bf6-7c1bd7a3a8e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /3d714fc223e/, ws-headers: {Host: ms.nimen.ml}}
   - {name: 🇯🇵 日本 U, server: m.misapp.top, port: 31552, type: vmess, uuid: 70396943-998c-e94d-4689-06b01e04dfc0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ynqivws, ws-headers: {Host: magsk.eu.org}}
   - {name: 🇺🇸 洛杉矶 G, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /f601134/, ws-headers: {Host: nimen.tk}}
   - {name: 🇺🇸 洛杉矶 O, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dauuvws, ws-headers: {Host: pushplus.eu.org}}
-  - {name: 🇺🇸 达拉斯 G, server: m.misapp.top, port: 
-  31552, type: vmess, uuid: f68bdfd7-4124-4113-8205-69af0f945d73, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /0ca241/, ws-headers: {Host: m.misapp.ml}}
+  - {name: 🇺🇸 达拉斯 G, server: m.misapp.top, port: 31552, type: vmess, uuid: f68bdfd7-4124-4113-8205-69af0f945d73, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /0ca241/, ws-headers: {Host: m.misapp.ml}}
+  - {name: 🇸🇬 新加坡 S, server: 47.243.246.46, port: 443, type: vmess, uuid: 80fe731d-0a45-4df9-413d-b74fa0099ef5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /faocvws, ws-headers: {Host: magsko.eu.org}}
+  - {name: 🇺🇸 Heroku U, server: 47.52.59.79, port: 443, type: vmess, uuid: 6d806487-2d26-4636-98b6-9b85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: heroku.misapp.workers.dev}}
+  - {name: 🇺🇸 圣何塞, server: m.misapp.top, port: 31552, type: vmess, uuid: 53028666-dd4f-4c49-ac27-f6cc9c4cc126, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /555574e4/, ws-headers: {Host: misapp.ml}}
+  - {name: 🇫🇷 星尘, server: 47.243.246.46, port: 443, type: vmess, uuid: b89e571b-0aba-fbe8-05b1-ed8fc2cd14c8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /xijovws, ws-headers: {Host: clou.eu.org}}
+  - {name: 🇭🇰 香港, server: v6nat.floatcloud.net, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: mv07d3p6uP5VvdAM, udp: true}
+  - {name: 🇰🇷 甲骨文 N, server: 47.52.59.79, port: 443, type: vmess, uuid: 6d11b475-dab4-4411-bc58-031f8402e70d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sztjvws, ws-headers: {Host: me.nimen.ml}}
+  - {name: 🇰🇷 甲骨文 Q, server: m.misapp.top, port: 31552, type: vmess, uuid: af10791e-806c-46d9-8bf6-7c1bd7a3a8e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /3d714fc223e/, ws-headers: {Host: ms.nimen.ml}}
+  - {name: 🇯🇵 日本 U, server: m.misapp.top, port: 31552, type: vmess, uuid: 70396943-998c-e94d-4689-06b01e04dfc0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ynqivws, ws-headers: {Host: magsk.eu.org}}
+  - {name: 🇺🇸 洛杉矶 G, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /f601134/, ws-headers: {Host: nimen.tk}}
+  - {name: 🇺🇸 洛杉矶 O, server: dgddns.floatcloud.net, port: 31552, type: vmess, uuid: b5dd26a7-be89-443f-9cfd-f88a5fb2dc05, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dauuvws, ws-headers: {Host: pushplus.eu.org}}
+  - {name: 🇺🇸 达拉斯 G, server: m.misapp.top, port:   31552, type: vmess, uuid: f68bdfd7-4124-4113-8205-69af0f945d73, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /0ca241/, ws-headers: {Host: m.misapp.ml}}
   - {name: 🇸🇬 新加坡 S, server: 47.243.246.46, port: 443, type: vmess, uuid: 80fe731d-0a45-4df9-413d-b74fa0099ef5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /faocvws, ws-headers: {Host: magsko.eu.org}}
   - {name: 🇺🇸 Heroku U, server: 47.52.59.79, port: 443, type: vmess, uuid: 6d806487-2d26-4636-98b6-9b85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: heroku.misapp.workers.dev}}
   - {name: 🇺🇸 圣何塞, server: m.misapp.top, port: 31552, type: vmess, uuid: 53028666-dd4f-4c49-ac27-f6cc9c4cc126, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /555574e4/, ws-headers: {Host: misapp.ml}}
@@ -370,8 +385,7 @@ proxies:
   - {name: SG_1228 | 46.74Mb, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: false}
   - {name: SG_1229 | 31.24Mb, server: cscu.wecanfly.top, port: 51227, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: false, udp: true}
   - {name: SG_1230 | 44.56Mb, server: s2.kaxff.com, port: 32432, type: trojan, password: OcABzr5wEG, sni: s2.kaxff.com, skip-cert-verify: false} 
- 
-- {name: Relay 🇨🇳 CN_246 |  1.01Mb, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: Relay 🇨🇳 CN_246 |  1.01Mb, server: 117.28.243.220, port: 8221, type: ss, cipher: rc4-md5, password: passinfo123}
   - {name: CN_248, server: 117.185.229.64, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174}
   - {name: CN_250, server: 117.185.229.64, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 5efeb899-e8bd-446f-b0be-863d30331174}
   - {name: CN_251 | 38.75Mb, server: iepl02.123ccc.xyz, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com}
