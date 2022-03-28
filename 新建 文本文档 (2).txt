@@ -182,9 +182,7 @@ proxies:
   - {name: SG_856 |  5.22Mb, server: 14.128.49.186, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: SG_857 |  3.42Mb, server: 14.128.54.186, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: SG_858 |  4.10Mb, server: 14.128.54.163, port: 16888, type: vmess, uuid: 0eba9dad-69a1-49e4-b338-c49ebc6c774b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: SG_859, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, skip-cert-verify: false, udp: true}
-
-- {name: 🇸🇬 IPLC 🇸🇬SG, server: iepl02.123ccc.xyz, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com}
+  - {name: SG_859, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, skip-cert-verify: false, udp: true}- {name: 🇸🇬 IPLC 🇸🇬SG, server: iepl02.123ccc.xyz, port: 9041, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com}
   - {name: 🇭🇰 IPLC 🇭🇰HK, server: iepl03.123ccc.xyz, port: 9011, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 11418:mhr2001, obfs-param: 89c2711418.apple.com}
   - {name: 🇺🇸 美国34.125.228.72, server: 34.125.228.72, port: 37058, type: vmess, uuid: 39d7247e-b0d9-448c-93d0-25eb0d7e6a83, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港34.150.55.213, server: 34.150.55.213, port: 37754, type: vmess, uuid: 1fae27ce-f680-4e77-b051-5f41813eddf1, alterId: 0, cipher: auto, tls: false}
