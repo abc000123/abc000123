@@ -1,4 +1,57 @@
 proxies:
+  - {name: CN_01 | 19.56Mb, server: 881118.ml, port: 25222, type: trojan, password: Lpz8k0ydSa, sni: 881118.ml, skip-cert-verify: false, udp: true}
+  - {name: TW_02 | 39.72Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: Relay 🇨🇳 TW_03, server: 14.29.124.168, port: 24020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: TW_04 | 47.86Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: TW_05, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false, udp: true}
+  - {name: TW_06, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false, udp: true}
+  - {name: HK_10 | 36.68Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_11, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_12 | 42.54Mb, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
+  - {name: HK_13 | 28.98Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_14, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_15, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_16, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_17, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_18, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_19 | 23.58Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_21 | 60.53Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_22 | 28.64Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_23 | 28.82Mb, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_24 | 56.29Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_25 | 23.95Mb, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_26, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_27, server: f72a1b44-b454-43ae-bd06-f13524958c7c.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_29 | 46.31Mb, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_31, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: HK_32 | 28.55Mb, server: 34.150.69.207, port: 80, type: vmess, uuid: 848e88da-e7e5-4cd8-e288-4b094249ad06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: HK_34 | 35.77Mb, server: 35.220.212.171, port: 57163, type: vmess, uuid: 57dd3bf0-c34e-4b32-d406-1c2b40f6b015, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: HK_35 | 35.95Mb, server: 34.150.69.207, port: 19533, type: vmess, uuid: e3d4a644-10c8-4c32-beb2-2e1662cebd75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: HK_36 |  8.77Mb, server: V2-NODE-4.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 94663697-512d-47fe-ad13-14984e1ebffa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-4.GFWAIRPORT.NET}}, udp: true}
+  - {name: HK_37 | 31.84Mb, server: 137.116.164.205, port: 58774, type: vmess, uuid: ec744701-d5bb-4175-8e20-6f5578511bb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: SG_78, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_79 | 56.21Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61004, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_80 | 58.62Mb, server: in4ba0929902b470.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_81 | 31.87Mb, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_82 | 49.56Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_83 | 47.63Mb, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_84 | 52.50Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_85 | 64.81Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_86, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_87 | 42.62Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: SG_88 |  2.31Mb, server: yy01.nfeng6.pp.ua, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: SG_89 | 23.61Mb, server: 168.138.177.112, port: 41239, type: vmess, uuid: f962092f-a5b7-4011-eaaa-ae52200a3740, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: SG_90 | 11.50Mb, server: 138.2.76.156, port: 46452, type: vmess, uuid: aeb5106c-3494-489b-9386-e67e5f575cb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: SG_91 | 32.49Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false, udp: true}
+  - {name: Relay 🇸🇬 SG_92 | 59.01Mb, server: 119.147.2.245, port: 58807, type: trojan, password: 46fe9d6a-ff89-3406-ab1f-01997f1223a1, skip-cert-verify: false, udp: true}
+  - {name: SG_93 | 23.56Mb, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: false, udp: true}
+  - {name: SG_94 | 11.59Mb, server: 20.212.197.126, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, skip-cert-verify: false, udp: true}
+  - {name: US_95 |  9.34Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: US_96 | 10.17Mb, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
+  - {name: Relay 🇺🇸 US_97, server: 120.233.10.182, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: t.me/vpnhat}
+  - {name: US_98 | 23.23Mb, server: 45.150.165.97, port: 20083, type: vmess, uuid: 4a28c121-7b5b-41bc-8a66-12f3fa8ce422, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Relay 🇺🇸 US_99 | 20.10Mb, server: 119.147.2.245, port: 58832, type: trojan, password: 46fe9d6a-ff89-3406-ab1f-01997f1223a1, skip-cert-verify: false, udp: true}
+  - {name: US_100 | 25.32Mb, server: tj-node-5.gfwairport.net, port: 50001, type: trojan, password: 94663697-512d-47fe-ad13-14984e1ebffa, sni: tj-node-5.gfwairport.net, skip-cert-verify: false, udp: true}
   - {name: CN_262 | 14.91Mb, server: 124.156.146.231, port: 22836, type: vmess, uuid: b6cb8c79-9af3-440e-9781-813ac0a1e8e3, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: CN_263, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: CN_264, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, skip-cert-verify: false}
